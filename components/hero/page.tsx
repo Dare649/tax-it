@@ -32,38 +32,40 @@ const Hero = () => {
         {/* Right Section - Hidden on small screens */}
         <div className="hidden lg:flex relative w-1/2 h-full items-center justify-center">
           <div className="relative w-[600px] h-[600px]">
-            {/* Large Center Circle */}
-            <div className="absolute z-20 w-[600px] h-[600px] rounded-full overflow-hidden border-2 border-transparent">
+            <div className="absolute z-20 w-[260px] h-[260px] lg:w-[600px] lg:h-[600px] rounded-full overflow-hidden border-2 border-transparent">
               <Image
-                src="/Ellipse 3.png"
+                src="/Ellipse 3.png" 
                 alt="Main"
-                fill
-                className="object-cover"
+                width={320}
+                height={320}
+                className="object-cover w-full h-full"
               />
             </div>
 
             {/* Top-left Circle */}
-            <div className="absolute -top-8 -left-80 z-10 w-[400px] h-[400px] rounded-full overflow-hidden border-4 border-transparent">
+            <div className="absolute -top-8 -left-80 z-10 w-[180px] h-[180px] lg:w-[400px] lg:h-[400px] rounded-full overflow-hidden border-4 border-transparent">
               <Image
-                src="/Ellipse 4.png"
+                src="/Ellipse 4.png" 
                 alt="Top Left"
-                fill
-                className="object-cover"
+                width={200}
+                height={200}
+                className="object-cover w-full h-full"
               />
             </div>
 
             {/* Bottom-right Circle */}
-            <div className="absolute -bottom-52 z-50 w-[400px] h-[400px] rounded-full overflow-hidden border-4 border-transparent">
+            <div className="absolute -bottom-40 left-20 z-50 w-[160px] h-[160px] lg:w-[400px] lg:h-[400px] rounded-full overflow-hidden border-4 border-transparent">
               <Image
-                src="/Ellipse 5.png"
+                src="/Ellipse 5.png" 
                 alt="Bottom Right"
-                fill
-                className="object-cover"
+                width={180}
+                height={180}
+                className="object-cover w-full h-full"
               />
             </div>
 
             {/* Decorative Circles */}
-            <div className="absolute -top-3 -left-[1px] w-[90px] h-[90px] rounded-full bg-gradient-to-b from-[#C4AF74] to-[#8C783D] z-50"></div>
+            <div className="absolute top-10 left-7 w-[90px] h-[90px] rounded-full bg-gradient-to-b from-[#C4AF74] to-[#8C783D] z-50"></div>
             <div className="absolute z-50 top-[80px] right-[-80px] w-[150px] h-[150px] rounded-full border-4 border-[#3AB54A]"></div>
             <div className="absolute -bottom-[50px] -left-[150px] w-[300px] h-[300px] rounded-full bg-[#0D8A1F]/20 border border-[#3AB54A]/40"></div>
           </div>

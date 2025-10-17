@@ -50,7 +50,7 @@ const NavBar = () => {
                             after:content-[''] after:absolute after:bottom-0 after:h-[2.5px] after:w-0 after:bg-[var(--color-primary-1)] 
                             hover:after:w-full after:transition-all after:duration-300 
                             ${item.gap 
-                            ? "border-l border-white pl-6 after:left-[6px]"  // adds space between border & underline
+                            ? "border-l border-white pl-6 after:left-[6px]"  
                             : "after:left-0"}`}
                         >
                             {item.title}
