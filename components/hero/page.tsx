@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="relative w-screen lg:min-h-screen h-[45vh] bg-black text-white flex flex-col overflow-hidden">
+    <div className="relative w-screen lg:min-h-screen h-[50vh] bg-black text-white flex flex-col overflow-hidden">
       <NavBar />
 
       {/* Hero Content */}
